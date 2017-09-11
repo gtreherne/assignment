@@ -9,10 +9,10 @@ if($username === "root" && $password === "root")
     {
         setcookie("auto_login", "true", time() + (7*24*60*60));   
     }
-    header("location: ./../php/home.php" );
+    header("location: ./home.php" );
 }
 else
 {
-    header("location: ./../php/login.php" );
+    header("location: ./login.php" );
 }
 ?>

@@ -14,49 +14,20 @@ if(isset($_COOKIE["auto_login"]))
 <html>
 	<head>
 		<meta charset='UTF-8'>
-		<style>
-			.div1{
-				border: 1px solid;
-                padding: 10px;
-                background-color:salmon;
-                width:intrinsic;
-			}
-            .labelDiv{
-                background-color:salmon;
-                border: 1px solid #ffa07a;
-                margin-right:5px;
-                width:180px;
-                float:left;
-                font-family:helvetica;
-                font-size: 10pt;
-			}
-            .legendDiv{
-                background-color:salmon;
-                border: 1px solid #ffa07a;
-                font-family:helvetica;
-                font-size: 10pt;
-			}
-            .fieldset1{
-                background-color:salmon;
-                border: 1px solid #ffa07a;
-                width:350px;
-                font-family:helvetica;
-                font-size: 10pt;
-                margin-bottom:2px;
-            }
-		</style>
-		<title>
-			Form Test
-		</title>
+        <link rel="stylesheet" type="text/css" href="./css/lightside.css">
+		<title>Login</title>
 	</head>
 	<body>
-		<div class='div1'>
-		<form name='form1'  action='../php/processLogin.php' method='POST' >
-            Username <input type='text' name='uname'>
-            Password <input type='text' name='pwd'> <br><br>
-            <input type='checkbox' name='remember' value='check'> Keep me logged in for a week <br><br>
-            <input type='submit' value='submit form'> 
-            <input type='submit' value='reset form'> 
-		</form>
+        <div class="position-center">
+    		<div class='login'>
+    		<form name='form'  action='./processLogin.php' method='POST' >
+                <input type='text' name='uname' placeholder="Username"> <br>
+                <input type='text' name='pwd' placeholder="Password"> <br><br>
+                <input type='checkbox' name='remember' value='check'> Keep me logged in for a week <br><br>
+                <input type='submit' value='submit form'> 
+                <input type='submit' value='reset form'> 
+    		</form>
+            </div>
         </div>
 	</body>
+</html>

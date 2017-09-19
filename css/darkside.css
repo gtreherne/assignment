@@ -1,3 +1,8 @@
+/*Styling for the darkside theme used by the preferences page*/
+
+
+/*Site wide ID styling*/
+
 html {
     background-color: #2d2d2d;
     color: #fff;
@@ -6,30 +11,6 @@ html {
 body {
     margin: 0;
     font-family: arial
-}
-
-body.default {
-    font-size: 100%;
-}
-
-body.largest {
-    font-size: 120%;
-}
-
-body.large {
-    font-size: 110%;
-}
-
-body.small {
-    font-size: 90%;
-}
-
-body.smallest {
-    font-size: 80%;
-}
-
-nav.right {
-    float: right;
 }
 
 header h1 {
@@ -72,6 +53,36 @@ content {
     margin: 15px 0 15px 50px;
     display: inline-block;
 }
+
+
+/*Font sizes and navigation menu position used by preferences page*/
+
+body.default {
+    font-size: 100%;
+}
+
+body.largest {
+    font-size: 120%;
+}
+
+body.large {
+    font-size: 110%;
+}
+
+body.small {
+    font-size: 90%;
+}
+
+body.smallest {
+    font-size: 80%;
+}
+
+nav.right {
+    float: right;
+}
+
+
+/*Class's for login page*/
 
 .login {
     display: inline-block;

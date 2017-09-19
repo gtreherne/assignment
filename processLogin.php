@@ -2,7 +2,7 @@
 $username = $_POST["uname"];
 $password = $_POST["pwd"];
 
-if($username === "root" && $password === "root")
+if($username === "test" && $password === "alpha")
 {
     setcookie("logged_in", "true");
     if(isset($_POST["remember"]))

@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset='UTF-8'>
-    <link rel="stylesheet" type="text/css" href="./css/lightside.css">
-	<title>home</title>
+		<?php
+			require_once("setTheme.php");
+			require_once("lib.php");
+		?>
+	<title>Home</title>
 </head>
-<body>
+<body class=" <?php echo get_font_size(); ?> ">
 <header>
 	<h1>COMP233 Assignment 3</h1>
 </header>
-<nav>
+<nav class=" <?php echo get_menu_position(); ?>">
 	<ul>
 		<li>
-			<a href="./home.php">Home</a>
+			<a href="home.php">Home</a>
 		</li>
 		<li>
-			<a href="./pageone.php">Page One</a>
+			<a href="pageone.php">Page One</a>
 		</li>
 		<li>
-			<a href="./pagetwo.php">Page Two</a>
+			<a href="pagetwo.php">Page Two</a>
 		</li>
 		<li>
-			<a href="./pagethree.php">Page Three</a>
+			<a href="pagethree.php">Page Three</a>
 		</li>
 		<li>
-			<a href="./final.php">Logout</a>
+			<a href="preferences.php">Preferences</a>
+		</li>
+		<li>
+			<a href="final.php">Logout</a>
 		</li>
 	</ul>
 </nav>
@@ -36,6 +43,7 @@ if(isset($_COOKIE["logged_in"])) {
     echo "Click <a href='login.php'>here</a> to log in";
 }
 ?>
+<h1>Home Page</h1>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere, velit vel tincidunt sagittis, nibh risus imperdiet lorem, ac consequat est est non turpis. Vivamus sit amet sollicitudin arcu, eget vestibulum nisi. Praesent non nibh sed augue rutrum porta nec a leo. Integer vel est a urna gravida aliquet vitae vitae eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a ultricies augue, ac facilisis enim. Aliquam erat volutpat.
 </p>

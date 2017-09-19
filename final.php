@@ -11,7 +11,7 @@ setcookie("auto_login", "", time() - 60);
 		</title>
 	</head>
 	<body>
-	Thank You for visiting the website. You have ben logged out
+		<p>Thank You for visiting the website. You have ben logged out</p> 
+		<p>Click <a href="login.php">here</a> to log back in.</p>
 	</body>
-
 </html>

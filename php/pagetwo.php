@@ -29,12 +29,16 @@
 		<li>
 			<a href="pagethree.php">Page Three</a>
 		</li>
-		<li>
-			<a href="preferences.php">Preferences</a>
-		</li>
-		<li>
-			<a href="final.php">Logout</a>
-		</li>
+		<?php 
+			if(isset($_COOKIE["logged_in"])) {echo"
+				<li>
+					<a href='preferences.php'>Preferences</a>
+				</li>
+				<li>
+					<a href='final.php'>Logout</a>		
+				</li>";
+			}
+		?>
 	</ul>
 </nav>
 <!-- Start content section -->

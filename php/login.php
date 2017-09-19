@@ -35,9 +35,6 @@ if(isset($_COOKIE["logged_in"])) {
         <li>
             <a href="./pagethree.php">Page Three</a>
         </li>
-        <li>
-            <a href="./final.php">Logout</a>
-        </li>
     </ul>
 </nav>
 <!-- Start content section -->

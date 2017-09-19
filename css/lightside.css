@@ -49,6 +49,7 @@ content {
 }
 
 
+
 /*Font sizes and navigation menu position used by preferences page*/
 
 body.default {
@@ -74,6 +75,7 @@ body.smallest {
 nav.right {
     float: right;
 }
+
 
 
 /*Class's for login page*/

@@ -1,3 +1,4 @@
+<!-- This script contains content and ideas from Chris Clark @ Shift Innovation Centre -->
 <?php
 $theme = $_POST["theme-color"];
 $font = $_POST["theme-font"];

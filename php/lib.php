@@ -1,3 +1,4 @@
+<!-- This script was developed with help from Chris Clark @ Shift Innovation Centre -->
 <?php
 function get_font_size() {
 	$fontsize='';

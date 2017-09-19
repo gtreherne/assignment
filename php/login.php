@@ -16,9 +16,11 @@ if(isset($_COOKIE["logged_in"])) {
     <title>Login</title>
 </head>
 <body class=" <?php echo get_font_size(); ?> ">
+<!-- Start header section -->
 <header>
     <h1>COMP233 Assignment 3</h1>
 </header>
+<!-- Navigation menu -->
 <nav class=" <?php echo get_menu_position(); ?>">
     <ul>
         <li>
@@ -38,8 +40,10 @@ if(isset($_COOKIE["logged_in"])) {
         </li>
     </ul>
 </nav>
+<!-- Start content section -->
     <content>
         <div class="position-center">
+<!-- Login form -->
         <h1>Login</h1>
     		<div class='login'>
         		<form name='form'  action='./processLogin.php' method='POST' >

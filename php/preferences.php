@@ -10,9 +10,11 @@
     <title>Preferences</title>
 </head>
 <body class=" <?php echo get_font_size(); ?> ">
+<!-- Start header section -->
 <header>
     <h1>COMP233 Assignment 3</h1>
 </header>
+<!-- Navigation menu -->
 <nav class=" <?php echo get_menu_position(); ?>">
     <ul>
         <li>
@@ -35,6 +37,7 @@
         </li>
     </ul>
 </nav>
+<!-- Start content section -->
 <content>
 <?php
     if(isset($_COOKIE["logged_in"])) {
@@ -43,6 +46,7 @@
         echo "Click <a href='login.php'>here</a> to log in";
     }
 ?>
+<!-- Start preferences form -->
     <h1>Preferences</h1>
     <form id="form1" action="savePreferences.php" name="save" method="POST">
         <h2>Theme</h2> Which theme would you like

@@ -10,9 +10,11 @@
 	<title>Page Three</title>
 </head>
 <body class=" <?php echo get_font_size(); ?> ">
+<!-- Start header section -->
 <header>
 	<h1>COMP233 Assignment 3</h1>
 </header>
+<!-- Navigation section -->
 <nav class=" <?php echo get_menu_position(); ?>">
 	<ul>
 		<li>
@@ -35,6 +37,7 @@
 		</li>
 	</ul>
 </nav>
+<!-- Start content section -->
 <content>
 <?php
 	if(isset($_COOKIE["logged_in"])) {

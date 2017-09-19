@@ -1,3 +1,4 @@
+<!-- This script was built using information from learning content developed by Vimal Kumar -->
 <?php
 if (isset($_COOKIE['theme'])) {
 	if ($_COOKIE['theme'] === 'darkside') {

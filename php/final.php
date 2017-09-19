@@ -1,3 +1,4 @@
+<!-- This script contains content developed by Vimal Kumar -->
 <?php
 setcookie("logged_in", "", time() - 60);
 setcookie("auto_login", "", time() - 60);

@@ -1,3 +1,4 @@
+<!-- This script was introduced from learning content produced by Vimal Kumar -->
 <?php
 $username = $_POST["uname"];
 $password = $_POST["pwd"];
